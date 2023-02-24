@@ -5,7 +5,8 @@ import '../styles/App.css';
 const relationOutput = {
     0: "Siblings",
     1: "Friends",
-    2: "Love", 3: "Affection",
+    2: "Love",
+    3: "Affection",
     4: "Marriage",
     5: "Enemy",
 }
@@ -27,7 +28,7 @@ function App() {
             seterr(true) // set msg to true
         }
 
-// logic for removing same char frm bith str
+        // logic for removing same char frm bith str
 
         let newstr1 = "";
         let newstr2 = "";
